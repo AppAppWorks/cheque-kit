@@ -1,19 +1,19 @@
 #page title
-page_title                                : +Clipboard | AppAppWorks                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Cheque-kit | AppAppWorks                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 524303305                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                : 820320582                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-playstore_link                            :                                           # Enter Google Play Store URL.
+playstore_link                            : https://play.google.com/store/apps/details?id=com.appappworks.cheque_kit                                          # Enter Google Play Store URL.
 presskit_download_link                    :                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : +Clipboard                                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : Cheque-kit                                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : Free                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Copy and paste, Capture and save!
-app_category                              : Utilities
+app_description                           : Cheque Writing Made Easy!
+app_category                              : Finance
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -35,21 +35,13 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Auto-save history
-    description                           : +Clipboard automatically captures and saves the current pasteboard item whenever you open the app.
-    fontawesome_icon_name                 : history
+  - title                                 : Multi-language Support
+    description                           : Cheque-kit supports multiple languages, including English, French, Arabic, Portuguese, etc.
+    fontawesome_icon_name                 : language
     
-  - title                                 : Clips at your fingertips
-    description                           : Access saved clips from the dedicated keyboard, widgets, and of course the +Clipboard app. 
-    fontawesome_icon_name                 : hand-pointer
-
-  - title                                 : Create clips anytime, anywhere
-    description                           : Create clips by manually adding ones through the +Clipboard app, or by importing items from other apps.
-    fontawesome_icon_name                 : folder-plus
-
-  - title                                 : Data security
-    description                           : Set passwords to prevent unauthorised access to your clips.
-    fontawesome_icon_name                 : key
+  - title                                 : Multi-currency Support
+    description                           : Cheque-kit supports all major currencies in the world, including USD, EUR, GBP, JPY, etc.
+    fontawesome_icon_name                 : money-bill-alt
 
 
 
@@ -64,7 +56,7 @@ cover_overlay_transparency                : 0.8
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "#60c9f8"
+body_background_color                     : "#ff8b00"
 
 link_color                                : "#1d63ea"
 
@@ -72,16 +64,16 @@ app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
 app_description_color                     : "#ffffff"
 
-feature_title_color                       : "#000000"
-feature_text_color                        : "#161616"
+feature_title_color                       : "#ffffff"
+feature_text_color                        : "#e6e6e6"
 
-feature_icons_foreground_color            : "#60c9f8"
-feature_icons_background_color            : "#161616"
+feature_icons_foreground_color            : "#ff8b00"
+feature_icons_background_color            : "#e6e6e6"
 
 social_icons_foreground_color             : "#666666"
 social_icons_background_color             : "#e6e6e6"
 
-footer_text_color                         : "#161616"
+footer_text_color                         : "#e6e6e6"
 
 
 
@@ -99,7 +91,7 @@ footer_text_color                         : "#161616"
 ### Jekyll Configuration. No need to touch this. ###
 ####################################################
 
-baseurl: /clipboard
+baseurl: /cheque-kit
 
 # Set the Sass partials directory, as we're using @imports
 sass:

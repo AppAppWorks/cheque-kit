@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Privacy Policy for +Clipboard
+title: Privacy Policy for Cheque-kit
 include_in_header: false
 ---
 
 # Privacy Policy
-This privacy policy governs your use of the software application +Clipboard (“Application”) for mobile devices that was created by AppAppWorks. The Application is a digital clipboard that enables convenient storage and retrieval of clips containing text and images. 
+This privacy policy governs your use of the software application Cheque-kit (“Application”) for mobile devices that was created by AppAppWorks.&nbsp;The Application is&nbsp;a number to text converter helping people in writing cheques.&nbsp;
 
 ## What information does the Application obtain and how is it used?
 
